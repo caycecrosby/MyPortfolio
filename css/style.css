@@ -5,14 +5,13 @@
     }
     
     #blackH{
-        color:black;
+        color:white;
         text-align: center;
     }
 
     .jumbotrons, .div1 {
-
-        height: 73.7vh;
-        background-image: url("../images/newerCollage.png");
+        
+        
         background-color: black;
         background-repeat: no-repeat;
         background-size: 100%;

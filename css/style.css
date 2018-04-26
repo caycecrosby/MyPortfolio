@@ -1,8 +1,8 @@
    html {
         zoom: 100%;
         background-color: #646464;
-        font-family: 'Montserrat Subrayada', sans-serif;
-    }
+/*        font-family: 'Montserrat Subrayada', sans-serif;
+*/    }
     
     #blackH{
         color:white;
@@ -33,12 +33,13 @@
     }
     .blackBG {
         background-color: black;
-        font-family: 'Montserrat Subrayada', sans-serif;
     }
     .whiteBG {
         background-color: white;
         background-size: :100%;
-        font-family: 'Montserrat Subrayada', sans-serif;
+      /*  font-family: 'Montserrat Subrayada', sans-serif;*/
+      font-family: 'Shrikhand', cursive;
+
     }
     .rowPuzzle {
         background-image: url("puzzle.jpg");
@@ -103,4 +104,7 @@
         margin: 0px;
      }
 
-    
+    p.aboutP{
+        font-family: 'Gugi', cursive;
+        font-size: 16.8px;
+    }

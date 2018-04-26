@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    
     <link href="https://fonts.googleapis.com/css?family=Montserrat+Subrayada" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid bigPicture">
         <div class="row greyBG">
+            <center>
             <ul>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Contact</a>
@@ -22,8 +25,14 @@
                         <a href="mailto:caycecrosby@gmail.com">Caycecrosby@gmail.com</a>
                         <a href="#">(803)-524-3604</a>
                     </div>
+                    
+                </li>
+                <li>
+                    <a href="#skills"class="scroll">Skills</a>
+                    <a href="#portfolio" class="scroll">Projects and Websites</a>
                 </li>
             </ul>
+            </center>
             <p> </p>
         </div>
         <br>
@@ -37,22 +46,35 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6 whiteBG">
+
+                <div class="col-md-4 blackBG">             
                     <center>
-                        <h2> About Me </h2></center>
-                    <p class="aboutP"> I'm KC Web Developer at your service. I often find myself banging my head against the wall looking for the one comma I missed, I wasn't always the guy I am today. I got my first taste of web development from good ole myspace. I could not have been more than 12 years old coding my summer vacation away. Over the years I got involved with extracurricular programs and ended up going down another path. Years later, I became a teacher and then an insurance agent. Feeling unfulfilled I began looking to things that made me happy as a young man and I have some good news! I have made my retrun to the scene and await your project designs and ideas. Let me know how I can help!</p>
+                      <img src="images/redPants.jpg" width="100%" height="370px">
+                  
+                   </center>
                 </div>
+                <div class="col-md-2 whiteBG">
+                    <center>
+                        <h2> Hello!</h2></center>
+                    <p class="aboutP">My name is MarCayce Crosby, and I'm a Charlotte, NC based Web Developer. I have a diverse set of skills including but not limited to HTML5, CSS3, and JavaScript. I await your project designs and ideas so let me know how I can help!</p> 
+                    </center>
+                </div> 
+                 
+
                 <div class="col-md-6 blackBG">
-                    <img src="images/webDesign.jpg" width="100%">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 blackBG">
+                   <br>
                     <img src="images/camera.jpg" width="100%">
                 </div>
-                <div class="col-md-6 whiteBG">
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 blackBG">
+                     <img src="images/webDesign.jpg" width="100%" height="364px">
+                </div>
+                <div id ="skills" class="col-md-6 whiteBG" >
                     <center>
-                        <h2> Skills and Experience</h2></center>
+                        <h2 id="skillnXP" > Skills and Experience</h2></center>
                     <center>
                         <table class="table">
                             <thead>
@@ -87,27 +109,26 @@
                     </div>
                     <div class="row">
                         <center>
-                            <div class="col-sm-3">
-                                <img src="images/WU.jpg" height="75px" width="100%">
-                                <p>2011 - 2012</p>
+                            
+                            <div class="col-sm-4">
+                                <img src="images/uncc.png" height="75px" width="100%">
+                                <p> 2017</p>
                             </div>
-                            <div class="col-sm-3">
-                                <img src="images/uvm.png" height="75px" width="100%">
-                                <p>2012</p>
-                            </div>
-                            <div class="col-sm-3">
+
+                            <div class="col-sm-4">
                                 <img src="images/erskine.png" height="75px" width="100%">
                                 <p> 2009 - 2013</p>
                             </div>
-                            <div class="col-sm-3">
-                                <img src="images/uncc.png" height="75px" width="100%">
-                                <p> 2017</p>
+
+                            <div class="col-sm-4">
+                                <img src="images/uvm.png" height="75px" width="100%">
+                                <p>2012</p>
                             </div>
                         </center>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div id="portfolio"class="col-md-12">
                         <h2 class="whiteJumboText">Portfolio</h2>
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
@@ -117,12 +138,12 @@
                                 <li data-target="#myCarousel" data-slide-to="2"></li>
                                 <li data-target="#myCarousel" data-slide-to="3"></li>
                                 <li data-target="#myCarousel" data-slide-to="4"></li>
-                                <li data-target="#myCarousel" data-slide-to="5"></li>
+                                
                             </ol>
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <a href=https://jlqc007.github.io/The_Mixer/><img title="This was a full-stack team application called 'The Mixer'. The user can search for their favorite drink or use our randomizer in order to find out the ingredients, recipies, and location of stores nearby." src="images/mixer.png" width="33%" height="200px" alt="The Mixer" style="width:100%;"></a>
+                                    <a href=https://jlqc007.github.io/The_Mixer/><img title="This was a full-stack team application called 'The Mixer'. The user can search for their favorite drink or use our randomizer in order to find out the ingredients, recipies, and location of stores nearby." src="images/mixer2.png" width="33%" height="200px" alt="The Mixer" style="width:100%;"></a>
                                 </div>
                                 <div class="item">
                                     <a href=https://caycecrosby.github.io/Crystalize/.><img title="In this application I made a Crystal Game using Javascript and Jquery. To begin every round there's a randomly generated number on the page. Using the crystals you have to match the number. The trick is that all the crystals are also random numbers. Good Luck!" src="images/crystalwebsite.png" width="33%" height="200px" alt="Crystal Game" style="width:100%;"></a>
